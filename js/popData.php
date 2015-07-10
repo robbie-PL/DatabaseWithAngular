@@ -6,6 +6,7 @@
 	$db = "project";
 
 	$con = new mysqli($host, $user, $pass, $db);
+	
 	if($con->connection_error) {
 		die("DB connection failed:" . $con->connection_error);
 	}
