@@ -1,0 +1,38 @@
+<div class="container">
+
+	<h1>Blogs</h1>
+	
+	<button class="btn btn-primary">Add Blog</button>
+	<br>
+	<form class="form-horizontal" id="blogForm">
+		<div class="form-group">
+			<label for="title" class="col-sm-2 control-label">Title</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="description" class="col-sm-2 control-label">Description</label>
+			<div class="col-sm-10">
+				<textarea class="form-control"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" value="submit" class="btn btn-primary">Insert Blog</button>
+			</div>
+		</div>
+	</form>
+	<br>
+	<input type="search" ng-model="query" placeholder="Search Blog" class="form-control">
+	<br>
+	<table class="table table-striped">
+	 	<tr>
+	 		<th>Title</th><th>Description</th><th>Added</th>
+	 	</tr>
+	 	<tr>
+	 		<td>Demo Title</td><td>Demo Description</td><td>Demo Date</td>
+	 	</tr>
+	</table>
+
+</div>
